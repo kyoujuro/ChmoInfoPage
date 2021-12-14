@@ -9,8 +9,10 @@ class StartController extends Controller
     //
     public function index(){
     $encrypted = Crypt::encryptString('Hello world.');
+    session(['encrypted' =>$encrypted]);
+   
     $decrypted = Crypt::decryptString($encrypted);
-    //dd($decrypted);
+    
         return view('start')->with('decrypted', $decrypted);
     }
     
