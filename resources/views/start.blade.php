@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,18 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <div class="id">
         {{$decrypted}}
     </div>
-    <p class="text-3xl font-bold underline">before</p>
-   
+    
+            <p class="text-3xl font-bold underline">before</p>
+                <p class="text-xl text-red-500">A</p>
+                <p>B</p>
+                <p>C</p>
+           
+
 </body>
+
 </html>
