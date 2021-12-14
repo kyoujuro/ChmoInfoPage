@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="id">
-        
+        {{$decrypted}}
     </div>
 </body>
 </html>
