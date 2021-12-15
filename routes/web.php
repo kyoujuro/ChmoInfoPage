@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\StartController;
+use App\Http\Controllers\AminoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/start', [StartController::class, 'index']);
+Route::get('/amino', [AminoController::class, 'index']);

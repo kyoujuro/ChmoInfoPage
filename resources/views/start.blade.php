@@ -15,11 +15,30 @@
     </div>
 
     <p class="text-3xl font-bold underline">before</p>
-    <p class="text-xl text-red-500">A</p>
-    <p class="text-xl text-green-700">B</p>
-    <p class="text-5xl text-green-700">C</p>
-
+    <div class="text-5xl font-extrabold">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            無機化学
+        </span>
+    </div>
+    <div class="text-5xl font-extrabold">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-green-500">
+            有機化学
+        </span>
+    </div>
+    <div class="text-5xl font-extrabold" id=amino>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-yellow-500">
+            必須アミノ酸
+        </span>
+    </div>
 
 </body>
+<script>
+    var buttonClick = () => {
+        window.location.href = "amino";
+    }
+
+    var amino_button = document.getElementById("amino");
+    amino_button.onclick = buttonClick;
+</script>
 
 </html>
