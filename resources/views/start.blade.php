@@ -13,12 +13,12 @@
     <div class="id">
         {{$decrypted}}
     </div>
-    
-            <p class="text-3xl font-bold underline">before</p>
-                <p class="text-xl text-red-500">A</p>
-                <p>B</p>
-                <p>C</p>
-           
+
+    <p class="text-3xl font-bold underline">before</p>
+    <p class="text-xl text-red-500">A</p>
+    <p class="text-xl text-green-700">B</p>
+    <p class="text-5xl text-green-700">C</p>
+
 
 </body>
 
