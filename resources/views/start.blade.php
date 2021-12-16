@@ -30,7 +30,11 @@
             必須アミノ酸
         </span>
     </div>
-
+    <div class="text-5xl font-extrabold" id=amino>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-yellow-500">
+            流体力学
+        </span>
+    </div>
 </body>
 <script>
     var buttonClick = () => {
