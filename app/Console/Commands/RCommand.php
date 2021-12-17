@@ -37,7 +37,8 @@ class RCommand extends Command
      */
     public function handle()
     {
-        exec("Rscript  app/RCommands/test.r", $out);
+        //exec("Rscript  app/RCommands/test.r", $out);
+        exec("", $out);
         print_r($out);
     }
 }
