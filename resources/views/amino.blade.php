@@ -11,13 +11,13 @@
 <body>
     <button id=iris>irisデータ解析開始</button>
     <p id=iris_result></p>
+
 </body>
 
 </html>
 
-
+<script src="/js/app.js"></script>
 <script>
-   
     var iris_button = document.getElementById("iris");
     var iris_result = document.getElementById("iris_result");
 
@@ -34,4 +34,5 @@
     }
 
     iris.onClick = butotnClick();
+    console.log(message('Hoge'));
 </script>
