@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class RCommand extends Command
+class PythonCommand extends Command
 {
     /**
      * The name and signature of the console command.
@@ -38,7 +38,7 @@ class RCommand extends Command
     public function handle()
     {
         //exec("Rscript  app/RCommands/test.r", $out);
-        exec("", $out);
-        print_r($out);
+        exec("python app/PythonCommands/iris.py", $out);
+        return ($out[0]);
     }
 }
