@@ -38,7 +38,7 @@ class PythonCommand extends Command
     public function handle()
     {
         //exec("Rscript  app/RCommands/test.r", $out);
-        exec("python app/PythonCommands/iris.py", $out);
-        return ($out[0]);
+        exec("python app/PythonCommands/graph1.py", $out);
+        return ($out);
     }
 }

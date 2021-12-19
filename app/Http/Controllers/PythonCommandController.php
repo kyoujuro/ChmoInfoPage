@@ -10,8 +10,7 @@ class PythonCommandController extends Controller
     public function index(){
         $pythonPath =  "../app/PythonCommands";
         
-        exec('python ' . $pythonPath . '/iris.py' , $out, $rtn);
-        logger($out);
+        exec('python ' . $pythonPath . '/graph1.py' , $out, $rtn);
         return $out;
     }
 }

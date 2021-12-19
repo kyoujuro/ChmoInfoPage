@@ -14,4 +14,4 @@ y = df.iloc[:, 1][data.target==0].values
 model.fit(X, y)
 LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)
 print(model.coef_)
-# print(model.intercept_)
+print(model.intercept_)
