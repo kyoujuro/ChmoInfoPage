@@ -38,6 +38,7 @@
 </body>
 <script>
     var buttonClick = () => {
+        <?=session(['mode' =>'amino'])?>;
         window.location.href = "amino";
     }
 
