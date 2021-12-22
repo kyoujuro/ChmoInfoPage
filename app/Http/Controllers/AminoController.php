@@ -9,7 +9,7 @@ class AminoController extends Controller
     //
     public function index(Request $request){
         $validator = Validator::make($request->all(), [
-            'name' => 'required| stringS',
+            'name' => 'required| string',
             'age' => 'requires | integer | between:0,150',
         ]);
         if(session('mode') =='amino'){
